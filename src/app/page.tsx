@@ -6,7 +6,7 @@ const NEXT_PUBLIC_URL = process.env.NEXT_PUBLIC_URL;
 const frameMetadata = getFrameMetadata({
   buttons: [
     {
-      label: "Mint a cNFT from Solarplex",
+      label: "Mint a cNFT from LUV NFT",
       action: "post",
     },
   ],
@@ -15,10 +15,10 @@ const frameMetadata = getFrameMetadata({
 });
 
 export const metadata: Metadata = {
-  title: "Mint a cNFT from Solarplex",
-  description: "Mint a cNFT from Solarplex",
+  title: "Mint a cNFT from LUV NFT",
+  description: "Mint a cNFT from LUV NFT",
   openGraph: {
-    title: "Mint a cNFT from Solarplex",
+    title: "Mint a cNFT from LUV NFT",
     description: "Mint a cNFT with a single click",
     images: [`${NEXT_PUBLIC_URL}/default.png`],
   },
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <h1>Mint a cNFT from Solarplex</h1>
+      <h1>Mint a cNFT from LUV NFT</h1>
     </>
   );
 }
